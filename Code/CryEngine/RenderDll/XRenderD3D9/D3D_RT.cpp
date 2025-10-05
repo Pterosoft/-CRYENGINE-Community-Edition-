@@ -7,7 +7,6 @@
 #include <string>
 #include <d3dcompiler.h>
 #include <CryGame/IGameFramework.h>
-#include "ILevelSystem.h"
 #include "Common/Textures/Texture.h"
 #include "Common/RendererResources.h"
 
