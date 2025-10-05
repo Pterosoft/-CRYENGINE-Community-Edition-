@@ -9,7 +9,6 @@
 
 #include <Common/RenderDisplayContext.h>
 
-#include <Cry3DEngine/IFullScreenShaderCtrl.h>
 #include <Cry3DEngine/I3DEngine.h>
 
 //////////////////////////////////////////////////////////////////////////
