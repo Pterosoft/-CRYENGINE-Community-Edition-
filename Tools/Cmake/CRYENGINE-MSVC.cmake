@@ -16,6 +16,7 @@ set(MSVC_COMMON_FLAGS
 	/wd4275     # non dll-interface class '' used as base for dll-interface class ''
 	/wd4961     # No profile data was merged into '', profile-guided optimizations disabled
 	/wd4068     # 'Unknown pragma' - sometimes need these in code to prevent global suppression.
+  /wd4996     # (TAO) VS2026 moved some used functions into C++20 extensions; suppress those warnings since only QT lightly uses them
 )
 string(REPLACE ";" " " MSVC_COMMON_FLAGS "${MSVC_COMMON_FLAGS}")
 
