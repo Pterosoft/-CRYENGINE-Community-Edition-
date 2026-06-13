@@ -31,7 +31,7 @@ limitations under the License.
 
 #include <stdlib.h>
 #include <time.h>
-#include <algorithm>
+
 
 #if defined(OVR_OS_WIN32) || defined(OVR_OS_WIN64)
 #pragma warning(push, 0)
@@ -49,6 +49,7 @@ OVR_DISABLE_MSVC_WARNING(4091) // 'keyword' : ignored on left of 'type' when no 
 #include <Wbemidl.h>
 #include <ObjBase.h>
 #include <process.h>
+#include <algorithm>
 #pragma warning(pop)
 
 #pragma comment( \
